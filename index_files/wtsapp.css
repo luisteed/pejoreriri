@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/* CSS Document */
+
+a.contWhats {
+	position: fixed;
+	bottom: 300px;
+	right: -135px;
+	background: #01e675;
+	border-radius: 10px;
+	color: #fff !important;
+	text-align: center;
+	padding: 10px 15px 10px 65px;
+	-webkit-box-shadow: -5px 5px 0 0 rgba(0,0,0,.1);
+	box-shadow: -5px 5px 0 0 rgba(0,0,0,.1);
+	z-index: 300;
+}
+a.contWhats:hover, a.contTelegram:hover {
+    right: 0;
+}
+a.contWhats:before {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    left: 10px;
+    margin-top: -20px;
+    background: url(../images/iconWhats.svg) center no-repeat;
+    background-size: contain;
+}
+
+/* TELEGRAM */
+
+a.contTelegram {
+	position: fixed;
+	bottom: 200px;
+	right: -135px;
+	background: #25addf;
+	border-radius: 10px;
+	color: #fff !important;
+	text-align: center;
+	padding: 10px 15px 10px 65px;
+	-webkit-box-shadow: -5px 5px 0 0 rgba(0,0,0,.1);
+	box-shadow: -5px 5px 0 0 rgba(0,0,0,.1);
+	z-index: 300;
+}
+
+a.contTelegram:before {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    left: 10px;
+    margin-top: -20px;
+    background: url(../images/iconTelegram.svg) center no-repeat;
+    background-size: contain;
+}
+
+
+/* seccion contactanos en pagina*/
+.iconos {
+	display: flex;        
+    justify-content: center;
+}
+
+.iconos a{
+	text-decoration: none !important;
+	color: #333;
+}
+
+.iconos .contacto:hover {
+	/*background-color: #ff0000;*/
+    /*color: #ffffff;*/
+   /* text-decoration: none !important;
+    border: 2px solid #ff0000;
+    border-radius: 10px; */
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 2px #888888;
+}
+
+.iconos div {
+	text-align: center;
+	width: 120px;
+	margin-left: 20px;
+}
+
+.contacto i {
+	font-size: 50px;
+	color: #ff0000;
+}
+
+/*otros*/
+
+.iconos-otros {
+	display: flex;        
+    justify-content: left;
+}
+
+.iconos-otros a{
+	text-decoration: none !important;
+	color: #333;
+}
+
+.iconos-otros .contacto:hover {
+	/*background-color: #ff0000;*/
+    /*color: #ffffff;*/
+   /* text-decoration: none !important;
+    border: 2px solid #ff0000;
+    border-radius: 10px; */
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 2px #888888;
+}
+
+.iconos-otros div {
+	text-align: center;
+	font-size: 14px;
+	width: 110px;
+	margin-left: 20px;
+}

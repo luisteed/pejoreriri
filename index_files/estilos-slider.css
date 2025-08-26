@@ -1,0 +1,771 @@
+* {
+  box-sizing:border-box;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  height: auto;
+}
+.grande {
+      display: block;
+    
+  }
+
+ .chico{
+      display: none;
+    }
+    .marca-responsive{
+      
+    }
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 5s;
+  animation-name: fade;
+  animation-duration: 5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .6;}
+  to {opacity: 1;}
+}
+
+@keyframes fade {
+  from {opacity: .6;}
+  to {opacity: 1;}
+}
+
+
+
+/* BANNER PC GRANDE*/
+.slideshow-container .backimg01 {
+  max-width: 100%;
+  height: 500px;
+  background-image: url("../images/PORTADA2023.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slideshow-container .backimg02 {
+  max-width: 100%;
+  height: 500px;
+  background-image: url("../images/PTR2X2PC.png") !important;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-size: cover;
+}
+
+.slideshow-container .backimg03 {
+  max-width: 100%;
+  height: 500px;
+  background-image: url("../images/SOLDADURAPC.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slideshow-container .backimg04 {
+  max-width: 100%;
+  height: 500px;
+  background-image: url("../images/PTR1-2PC.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slideshow-container .backimg05 {
+  max-width: 100%;
+  height: 500px;
+  background-image: url("../images/DONGCHENG.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slideshow-container .backimg06 {
+  max-width: 100%;
+  height: 500px;
+  background-image: url("../images/ESMERIL4P.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  }
+.slideshow-container .backimg07 {
+  max-width: 100%;
+  height: 500px;
+  background-image: url("../images/ESMERIL7P.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.slideshow-container .backimg08 {
+  max-width: 100%;
+  height: 500px;
+  background-image: url("../images/DISCOSD.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*BANNER PC MEDIANO */
+@media (min-width: 901px) and (max-width: 1366px){
+
+  .slideshow-container {
+  height: 400px;
+}
+
+  .slideshow-container .backimg01 {
+  max-width: 100%;
+  height: 400px;
+  background-image: url("../images/PORTADA2023.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: 100% 90%;
+}
+
+.slideshow-container .backimg02 {
+  max-width: 100%;
+  height: 400px;
+  background-image: url("../images/PTR2X2PC.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: 100% 90%;
+}
+
+.slideshow-container .backimg03 {
+  max-width: 100%;
+  height: 350px;
+  background-image: url("../images/SOLDADURAPC.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slideshow-container .backimg04 {
+  max-width: 100%;
+  height: 350px;
+  background-image: url("../images/PTR1-2PC.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slideshow-container .backimg05 {
+  max-width: 100%;
+  height: 350px;
+  background-image: url("../images/movil/DONGCHENG.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  }
+
+.slideshow-container .backimg06 {
+  max-width: 100%;
+  height: 350px;
+  background-image: url("../images/movil/ESMERIL4P.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  }
+
+.slideshow-container .backimg07 {
+  max-width: 100%;
+  height: 350px;
+  background-image: url("../images/movil/ESMERIL7P.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slideshow-container .backimg07 {
+  max-width: 100%;
+  height: 350px;
+  background-image: url("../images/movil/DISCOSD.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+}
+/* -------- HOME SECTION -------------- */
+.section-1 {
+  background-image: url("../images/fondo1.png");
+  position: relative;
+display: block;
+background-size: cover;
+height: 530px;
+background-repeat: no-repeat;
+/* padding: 90px; */
+/* background-repeat: no-repeat;*/
+}
+.section-2 {
+  background-image: url("../images/fondo-franq.png");
+  position: relative;
+display: block;
+background-size: cover;
+height: 530px;
+background-repeat: no-repeat;
+/* padding: 90px; */
+/* background-repeat: no-repeat;*/
+}
+.slogan2{
+padding-top: 170px;
+}
+.section-3 {
+  background-image: url("../images/banner_feria_franquicias.png");
+  position: relative;
+display: block;
+background-size: cover;
+height: 530px;
+background-repeat: no-repeat;
+top: 50px;
+bottom: 30px;
+/* padding: 90px; */
+/* background-repeat: no-repeat;*/
+}
+.slogan2{
+padding-top: 170px;
+}
+/* .home-computer-container {} */
+.home-computer-container{
+  padding-top: 160px;
+  padding-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.home-computer-container h2{
+font-size: 30px;
+color:#fff;
+text-align: center;
+padding-bottom: 20px;
+}
+.home-computer-container p{
+font-size: 25px;
+line-height: 1.5;
+text-align: center;
+color: #fff;
+}
+/*FIN HOME BANNER*/
+/* MEDIDAS PARA MÓVIL */
+
+@media (min-width: 233px) and (max-width: 306px) {
+  .slideshow-container .backimg01 {
+  max-width: 100%;
+  height: 350px;
+  background-image: url("../images/movil/PORTADAMOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slideshow-container .backimg02 {
+  max-width: 100%;
+  height: 350px;
+  background-image: url("../images/movil/PTR2X2MOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slideshow-container .backimg03 {
+  max-width: 100%;
+  height: 350px;
+  background-image: url("../images/movil/SOLDADURAMOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slideshow-container .backimg04 {
+  max-width: 100%;
+  height: 350px;
+  background-image: url("../images/movil/PTR1-2MOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slideshow-container .backimg05 {
+  max-width: 100%;
+  height: 350px;
+  background-image: url("../images/movil/DONGCHENGMOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slideshow-container .backimg06 {
+  max-width: 100%;
+  height: 350px;
+  background-image: url("../images/movil/ESMERIL4PMOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  }
+
+.slideshow-container .backimg06 {
+  max-width: 100%;
+  height: 350px;
+  background-image: url("../images/movil/ESMERIL7PMOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slideshow-container .backimg06 {
+  max-width: 100%;
+  height: 350px;
+  background-image: url("../images/movil/DISCOSDMOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+
+}
+
+@media (min-width: 307px) and (max-width: 332px) {
+
+  .slideshow-container {
+  max-width: 100%;
+  height: 400px;
+  position: relative;
+  margin: auto;
+}
+
+  .slideshow-container .backimg01 {
+  max-width: 100%;
+  height: 400px;
+  background-image: url("../images/movil/PORTADAMOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slideshow-container .backimg02 {
+  max-width: 100%;
+  height: 400px;
+  background-image: url("../images/movil/ENEROPTR2X2MOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slideshow-container .backimg03 {
+  max-width: 100%;
+  height: 400px;
+  background-image: url("../images/movil/ENEROSOLDADURAMOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slideshow-container .backimg04 {
+  max-width: 100%;
+  height: 400px;
+  background-image: url("../images/movil/PTR1-2MOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slideshow-container .backimg05 {
+  max-width: 100%;
+  height: 400px;
+  background-image: url("../images/movil/DONGCHENGMOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slideshow-container .backimg06 {
+  max-width: 100%;
+  height: 400px;
+  background-image: url("../images/movil/ESMERIL4PMOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.slideshow-container .backimg06 {
+  max-width: 100%;
+  height: 400px;
+  background-image: url("../images/movil/ESMERIL7PMOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  }
+
+.slideshow-container .backimg06 {
+  max-width: 100%;
+  height: 400px;
+  background-image: url("../images/movil/DISCOSDMOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+}
+
+}
+
+@media (min-width: 333px) and (max-width: 376px) {
+  .slideshow-container {
+  max-width: 100%;
+  height: 440px;
+  position: relative;
+  margin: auto;
+}
+
+  .slideshow-container .backimg01 {
+  max-width: 100%;
+  height: 440px;
+  background-image: url("../images/movil/PORTADAMOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.slideshow-container .backimg02 {
+  max-width: 100%;
+  height: 440px;
+  background-image: url("../images/movil/PTR2X2MOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.slideshow-container .backimg03 {
+  max-width: 100%;
+  height: 440px;
+  background-image: url("../images/movil/SOLDADURAMOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.slideshow-container .backimg04 {
+  max-width: 100%;
+  height: 440px;
+  background-image: url("../images/movil/PTR1-2MOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slideshow-container .backimg05 {
+  max-width: 100%;
+  height: 440px;
+  background-image: url("../images/movil/DONGCHENGMOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slideshow-container .backimg06 {
+  max-width: 100%;
+  height: 440px;
+  background-image: url("../images/movil/ESMERIL4PMOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slideshow-container .backimg07 {
+  max-width: 100%;
+  height: 440px;
+  background-image: url("../images/movil/ESMERIL7PMOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slideshow-container .backimg08 {
+  max-width: 100%;
+  height: 440px;
+  background-image: url("../images/movil/DISCOSDMOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+}
+
+@media (min-width: 376px) and (max-width: 415px) {
+  .slideshow-container {
+  max-width: 1900px;
+  height: 470px;
+  position: relative;
+  margin: auto;
+}
+
+  .slideshow-container .backimg01 {
+  max-width: 100%;
+  height: 470px;
+  background-image: url("../images/movil/PORTADAMOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slideshow-container .backimg02 {
+  max-width: 100%;
+  height: 470px;
+  background-image: url("../images/movil/PTR2X2MOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slideshow-container .backimg03 {
+  max-width: 100%;
+  height: 470px;
+  background-image: url("../images/movil/SOLDADURAMOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slideshow-container .backimg04 {
+  max-width: 100%;
+  height: 470px;
+  background-image: url("../images/movil/PTR1-2MOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slideshow-container .backimg05 {
+  max-width: 100%;
+  height: 470px;
+  background-image: url("../images/movil/DONGCHENGMOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slideshow-container .backimg06 {
+  max-width: 100%;
+  height: 470px;
+  background-image: url("../images/movil/ESMERIL4PMOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slideshow-container .backimg07 {
+  max-width: 100%;
+  height: 470px;
+  background-image: url("../images/movil/ESMERIL7PMOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slideshow-container .backimg08 {
+  max-width: 100%;
+  height: 470px;
+  background-image: url("../images/movil/DISCOSDMOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+}
+
+/* Hacer otra medida de Background */
+@media (min-width: 416px) and (max-width: 900px) {
+  .slideshow-container {
+  max-width: 1900px;
+  height: 500px;
+  position: relative;
+  margin: auto;
+}
+
+  .slideshow-container .backimg01 {
+  max-width: 100%;
+  height: 500px;
+  background-image: url("../images/movil/PORTADAMOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+
+.slideshow-container .backimg02 {
+  max-width: 100%;
+  height: 500px;
+  background-image: url("../images/movil/PTR2X2MOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slideshow-container .backimg03 {
+  max-width: 100%;
+  height: 500px;
+  background-image: url("../images/movil/SOLDADURAMOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;ENEROSOLDADURAMOVIL.png
+}
+
+.slideshow-container .backimg04 {
+  max-width: 100%;
+  height: 500px;
+  background-image: url("../images/movil/PTR1-2MOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slideshow-container .backimg05 {
+  max-width: 100%;
+  height: 500px;
+  background-image: url("../images/movil/DONGCHENGMOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slideshow-container .backimg06 {
+  max-width: 100%;
+  height: 500px;
+  background-image: url("../images/movil/ESMERIL7PMOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slideshow-container .backimg07 {
+  max-width: 100%;
+  height: 500px;
+  background-image: url("../images/movil/ESMERIL4PMOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slideshow-container .backimg08 {
+  max-width: 100%;
+  height: 500px;
+  background-image: url("../images/movil/DISCOSDMOVIL.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+}
+@media (min-width: 360px) and (max-width: 640px){
+  .mySlides{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .section-1{
+    background-position: center;
+    width: 100%;
+    height: 225px;
+  }
+  .section-2{
+    background-position: center;
+    width: 100%;
+    height: 330px;
+    margin-bottom: 130px;
+  }
+  .section-3{
+    background-position: center;
+    width: 100%;
+    height: 140px;
+  }
+  .slogan2 {
+    padding-top: 94px;
+}
+.grande {
+      display: none;
+    
+  }
+.chico{
+    display: block;
+  }
+  .marca-responsive{
+    position: absolute;
+             font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+          color:#fff;
+        top: 260px;/*5px*/
+     left: 140px;/*10*/
+    font-size: 18px;
+  }
+
+}
+
+/* FIN MEDIDAS PARA MÓVIL*/
